@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="OpenAI Image Generator" icon-name="utility:image">
+        <div class="container">
+            <lightning-input type="text" label="Prompt" value={prompt} onchange={handlePromptChange} placeholder="Enter a prompt"></lightning-input>
+        <br />
+        <lightning-button label="Generate Image" onclick={handleGenerateImage}></lightning-button>
+        <br />
+        <br />
+        <template if:true={isLoading}>
+            <div class="loading-indicator">
+                <lightning-spinner alternative-text="Loading..." size="medium" variant="brand"></lightning-spinner>
+            </div>
+        </template> 
+        <template if:true={imageUrl}>
+            <img src={imageUrl} alt="Generated Image" class="generated-image" />
+        </template>
+        </div>
+    </lightning-card>
+</template>
