@@ -18,7 +18,7 @@ export default class ImageGenerationComponent extends LightningElement {
             return;
         }
         this.isLoading = true;
-        const apiKey = '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';
+        const apiKey = 'YOUR_API_KEY';
         const model = 'image-alpha-001';
         const url = `https://api.openai.com/v1/images/generations`;
 
