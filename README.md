@@ -2,7 +2,7 @@
 
 This repository contains an LWC (Lightning Web Component) that allows users to make API calls to OpenAI's image generation service. The component takes a text prompt from the user and generates an image based on that prompt.
 
-![](https://github.com/arun12209/OpenAI-Image-Generator-LWC/blob/main/Images/image-generation-lwc.gif)
+![](https://github.com/arun12209/OpenAI-Image-Generator-LWC/blob/main/Images/a%20white%20siamese%20cat.pdf)
 
 # Tools and Softwares used
 
